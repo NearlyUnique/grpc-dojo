@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package main;
+
+message SubType {
+    int32 number = 1;
+    bool enabled = 2;
+    map<string,int32> lookup = 3;
+}
+message HelloRequest {
+    string name = 1;
+    repeated SubType list = 2;
+}
