@@ -3,9 +3,7 @@
 ## Native
 
 1. `go generate`
-1. build and run
-    - Windows `go build -o app.exe && app`
-    - Linus `go build -o app && app`
+1. `go build && check-tools`
 
 ## Docker
 
