@@ -1,0 +1,10 @@
+FROM golang:alpine
+
+# Tools
+RUN apk add --no-cache git make curl unzip
+
+# Pre get large packages
+RUN go get -u github.com/pkg/errors
+RUN go get -u google.golang.org/grpc
+RUN go get -u github.com/fullstorydev/grpcurl
+RUN cd src/github.com/fullstorydev/grpcurl && make install
