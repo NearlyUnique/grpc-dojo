@@ -12,7 +12,7 @@
 
 1. `docker pull znly/protoc`
 1. copy [Dockerfile-build]
-1. `docker build -t grpc-build -f Docker-build .`
+1. `docker build -f Docker-build -t grpc-build .`
 
 ### Optional Editor tooling
 
