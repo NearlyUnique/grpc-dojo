@@ -1,11 +1,4 @@
-# Build a server
-
-1. make go generate work
-1. connect in grpc
-1. register service
-1. service type
-1. implement interface
-1. test with grpcurl
+# Build a client
 
 ## Native
 

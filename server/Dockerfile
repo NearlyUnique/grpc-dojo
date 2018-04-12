@@ -1,8 +1,9 @@
 FROM grpc-build AS build-env
 
-ADD ./*.go /go/src/github.com/dojo/app/
+ADD ./*.go /go/src/github.com/NearlyUnique/grpc-dojo/server/
+ADD ./dojo/*.go /go/src/github.com/NearlyUnique/grpc-dojo/server/dojo/
 
-WORKDIR /go/src/github.com/dojo/app
+WORKDIR /go/src/github.com/NearlyUnique/grpc-dojo/server
 
 RUN go build -o /app
 
