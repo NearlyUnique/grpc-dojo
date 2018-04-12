@@ -1,3 +1,5 @@
+//go:generate protoc --go_out=plugins=grpc:./dojo server.proto
+
 package main
 
 import (
