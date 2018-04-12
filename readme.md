@@ -6,7 +6,10 @@
 
 1. install go https://golang.org
 1. install protoc https://github.com/google/protobuf/releases
-1. install grpcurl `go get -u github.com/fullstorydev/grpcurl` cd into that folder then `go install ./...`
+1. install grpcurl `go get -u github.com/fullstorydev/grpcurl`
+    1. find your GOPATH, `go env GOPATH`
+    1. `cd ${GOPATH}` or `cd %GOPATH%`
+    1. `go install ./...`
 
 ### Docker only
 
@@ -18,3 +21,9 @@
 
 - VS Code https://code.visualstudio.com/ + extension "Go for Visual Studio Code"
 - GoLand https://www.jetbrains.com/go/
+
+## Running order
+
+- [[check-tools/readme.md]]
+- [[server/readme.md]]
+- [[client/readme.md]]
