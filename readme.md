@@ -16,5 +16,5 @@
 
 ### Optional Editor tooling
 
-VS Code https://code.visualstudio.com/ + extension "Go for Visual Studio Code"
-GoLand https://www.jetbrains.com/go/
+- VS Code https://code.visualstudio.com/ + extension "Go for Visual Studio Code"
+- GoLand https://www.jetbrains.com/go/
